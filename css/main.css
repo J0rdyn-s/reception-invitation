@@ -866,6 +866,43 @@ ul.social-links li a:hover i {
 /* =======================================
 4.4. Wedding Events Section
 ======================================= */
+.timeline-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.timeline li:last-child {
+  border-bottom: none;
+}
+
+.timeline .time {
+  font-weight: bold;
+  color: #555;
+  min-width: 120px;
+}
+
+.timeline .activity {
+  flex: 1;
+  padding-left: 1rem;
+}
+
 #party .map-wrapper {
   width: 100%;
   height: auto;

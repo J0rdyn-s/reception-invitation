@@ -1030,6 +1030,61 @@ ul.social-links li a:hover i {
 /* =======================================
 4.5. Gallery Section
 ======================================= */
+.gallery-item {
+  margin-bottom: 30px;
+}
+
+.gallery-item a {
+  display: block;
+  position: relative;
+  outline: none;
+}
+
+/* .gallery-item a .mask {
+  position: absolute;
+  background: #4f565e;
+  background: rgba(53, 53, 53, 0.6);
+  display: inline-block;
+  font-family: "Pe-icon-7-stroke";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.gallery-item a:hover .mask {
+  visibility: visible;
+  opacity: 1;
+}
+
+.gallery-item a .mask:after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -33px 0 0 -33px;
+  width: 66px;
+  line-height: 66px;
+  font-size: 66px;
+  text-align: center;
+  content: "\e6bf";
+  color: #fff;
+} */
+
 /* Dasktop Hover */
 .image-wrapper {
   position: relative;

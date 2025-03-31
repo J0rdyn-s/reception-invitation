@@ -495,6 +495,11 @@ textarea.form-control:focus {
   margin: 0;
 }
 
+.no-margin-title {
+  text-align: center;
+  margin: 0 !important;
+}
+
 .sections {
   padding-top: 120px;
 }
@@ -628,6 +633,13 @@ p.intro {
   border-radius: 60px;
 }
 
+.birthdate {
+  font-size: 5px;
+  color: #999;
+  font-style: italic;
+  margin-top: 4px;
+}
+
 .about-us-block .bottom-block {
   padding: 30px 20px;
   text-align: center;
@@ -635,6 +647,32 @@ p.intro {
 
 .about-us-block .bottom-block p {
   margin: 0;
+}
+
+.bottom-block {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #555; /* Softer base text */
+}
+
+.bottom-block .role {
+  font-size: 18px;
+  font-weight: 500;
+  color: #444; /* Slightly darker for emphasis */
+  margin-bottom: 6px;
+}
+
+.bottom-block .relation {
+  font-style: italic;
+  color: #777; /* Soft and understated */
+  margin-bottom: 4px;
+}
+
+.bottom-block .parents {
+  font-weight: 500;
+  color: #444; /* Harmonizes with the role */
 }
 
 .about-us .heart {

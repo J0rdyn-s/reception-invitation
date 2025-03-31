@@ -1030,43 +1030,31 @@ ul.social-links li a:hover i {
 /* =======================================
 4.5. Gallery Section
 ======================================= */
-.gallery-item .image-wrapper {
+.image-wrapper {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
 }
 
-.gallery-item img {
+.image-wrapper img {
   display: block;
   width: 100%;
   height: auto;
-  pointer-events: none; /* disable click */
-  transition: transform 0.3s ease;
+  pointer-events: none; /* disables click */
 }
 
-.gallery-item .overlay {
+.overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
-.gallery-item .overlay-text {
-  color: white;
-  font-size: 1rem;
-  text-align: center;
-  padding: 0.5rem 1rem;
-  line-height: 1.4;
-}
-
-.gallery-item .image-wrapper:hover .overlay {
+.image-wrapper:hover .overlay {
   opacity: 1;
 }
 

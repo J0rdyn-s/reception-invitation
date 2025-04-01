@@ -579,6 +579,10 @@ html[lang="ko"] .header .logo-container .header-logo {
   background-color: #fcfcfc;
 }
 
+.section-bg-color-home {
+  background-color: #ffe9e5;
+}
+
 .section-title {
   text-align: center;
   margin-top: 0;

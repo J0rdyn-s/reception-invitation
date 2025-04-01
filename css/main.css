@@ -511,6 +511,16 @@ html[lang="ko"] .header .logo-container .header-logo {
   font-weight: 300;
 }
 
+[lang="ko"] .header-date p {
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1em;
+  color: #9c9c9c;
+  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+  font-weight: 300;
+}
+
 .main-nav {
   position: fixed;
   width: 100%;

@@ -34,8 +34,14 @@
 @import url("https://fonts.googleapis.com/css?family=Courgette");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic");
 @font-face {
-  font-family: "GangwonEdu_OTFBoldA";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff") format("woff");
+  font-family: "omyu_pretty";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/omyu_pretty.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "omyu_pretty";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -49,7 +55,7 @@ html {
 }
 
 html[lang="ko"] body {
-  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+  font-family: "omyu_pretty", sans-serif;
 }
 
 html[lang="ko"] h1,
@@ -59,7 +65,7 @@ html[lang="ko"] h4,
 html[lang="ko"] h5,
 html[lang="ko"] h6 {
   color: #353535;
-  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+  font-family: "omyu_pretty", sans-serif;
   line-height: 1.5em;
   margin-top: 0;
   margin-bottom: 10px;
@@ -208,7 +214,7 @@ html[lang="ko"] a.button {
   text-decoration: none;
   background: none;
   border-radius: 0;
-  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+  font-family: "omyu_pretty", sans-serif;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
@@ -292,7 +298,7 @@ html[lang="ko"] .has-error .form-control:focus {
   -moz-box-shadow: none;
   box-shadow: none;
   outline: none;
-  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+  font-family: "omyu_pretty", sans-serif;
 }
 
 .form-control:focus {
@@ -493,7 +499,7 @@ html[lang="ko"] .header .logo-container .header-logo {
   padding: 0;
   color: #353535;
   font-size: 27px;
-  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+  font-family: "omyu_pretty", sans-serif;
   line-height: 1em;
 }
 
@@ -517,7 +523,7 @@ html[lang="ko"] .header .logo-container .header-logo {
   font-size: 18px;
   line-height: 1em;
   color: #9c9c9c;
-  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+  font-family: "omyu_pretty", sans-serif;
   font-weight: 300;
 }
 

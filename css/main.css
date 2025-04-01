@@ -58,7 +58,11 @@ html[lang="ko"] h3,
 html[lang="ko"] h4,
 html[lang="ko"] h5,
 html[lang="ko"] h6 {
+  color: #353535;
   font-family: "GangwonEdu_OTFBoldA", sans-serif;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 body {

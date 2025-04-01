@@ -33,6 +33,12 @@
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css?family=Courgette");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic");
+@font-face {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* ============================================================================= 
 2. General styles
@@ -41,6 +47,11 @@
 html {
   height: 100%;
 }
+
+html[lang="ko"] body {
+  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+}
+
 body {
   font-family: "Roboto", Helvetica, sans-serif;
   color: #666;

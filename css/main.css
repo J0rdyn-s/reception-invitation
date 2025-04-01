@@ -52,6 +52,15 @@ html[lang="ko"] body {
   font-family: "GangwonEdu_OTFBoldA", sans-serif;
 }
 
+html[lang="ko"] h1,
+html[lang="ko"] h2,
+html[lang="ko"] h3,
+html[lang="ko"] h4,
+html[lang="ko"] h5,
+html[lang="ko"] h6 {
+  font-family: "GangwonEdu_OTFBoldA", sans-serif;
+}
+
 body {
   font-family: "Roboto", Helvetica, sans-serif;
   color: #666;
